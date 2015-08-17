@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body {
+  background-color: #ADD8E6;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  margin: 0; 
+  padding: 0;}
+
+form {
+  padding: 0 20px 20px 20px;}
+
+legend {
+  color: #fff;
+  display: block;
+  margin: 10px 0 10px 0;
+  font-size: 32px;}
+
+label {
+  color: #fff;
+  display: block;
+  margin: 10px 0 10px 0;
+  font-size: 24px;}
+
+input[type='text'], input[type='password'], textarea {
+  background-color: #999;
+  color: #333;
+  font-size: 24px;
+  width: 96%;
+  padding: 4px 6px;
+  border: 1px solid #999;
+  border-radius: 8px;}
+
+input[type='submit'], a.add, button, a.show {
+  background-color: #cb6868;
+  color: #f3dad1;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 10px;
+  margin-top: 10px;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;}
+
+input[type='submit'], a.add, button {
+  float: none;} 
+
+input[type='text']:focus, input[type='password']:focus, textarea:focus {
+  border: 1px solid #fff;
+  background-color: #fff;
+  outline: none;}
+
+input[type='submit']:hover, a.add:hover, a.show:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;}
+
+.score1{
+  background-color: red;
+}
+.score2{
+  background-color: orange;
+}
+.score3{
+  background-color: yellow;
+}
+.score4{
+  background-color: lightgreen;
+}
+.score5{
+  background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
